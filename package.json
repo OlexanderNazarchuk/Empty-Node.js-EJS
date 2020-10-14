@@ -1,0 +1,39 @@
+{
+  "name": "intobi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@sendgrid/client": "^6.3.0",
+    "@sendgrid/mail": "^6.3.1",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-fileupload": "^1.1.6",
+    "jquery": "^3.4.1",
+    "node-fetch": "^2.3.0",
+    "node-minify": "^3.6.0",
+    "node-sass": "^4.11.0",
+    "popper": "^1.0.1",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nodemon": "^1.19.4",
+    "popper.js": "^1.15.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "webpack --config build/config.development.js",
+    "prod": "webpack --config build/config.production.js",
+    "watch": "nodemon index"
+  },
+  "author": "Aleksandr Nazarchuk",
+}
