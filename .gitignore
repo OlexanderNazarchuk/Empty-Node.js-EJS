@@ -3,3 +3,4 @@
 /.vs
 /public/styles.css
 /public/main.js
+.env
