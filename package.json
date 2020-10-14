@@ -35,5 +35,5 @@
     "prod": "webpack --config build/config.production.js",
     "watch": "nodemon index"
   },
-  "author": "Aleksandr Nazarchuk",
+  "author": "Aleksandr Nazarchuk"
 }

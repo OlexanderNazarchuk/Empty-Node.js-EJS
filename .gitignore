@@ -1,3 +1,5 @@
 /node_modules
 /.idea
 /.vs
+/public/styles.css
+/public/main.js
